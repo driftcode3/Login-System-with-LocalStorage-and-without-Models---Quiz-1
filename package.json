@@ -1,0 +1,16 @@
+{
+  "name": "awd",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run BackEnd\" \"npm run FrontEnd\"",
+    "BackEnd": "cd BackEnd && npm run dev",
+    "FrontEnd": "cd FrontEnd && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "react-icons": "^5.5.0"
+  }
+}
